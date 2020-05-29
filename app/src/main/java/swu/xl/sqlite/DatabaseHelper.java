@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     //数据库名称
-    public static final String DATABASE_NAME = "user";
+    public static final String DATABASE_NAME = "user.db";
     //数据库版本
     public static final int DATABASE_VERSION = 1;
     public static final String TABLE_NAME = "user";
